@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Technical Writer"
+  short_description: "Technical writing specialist from agency-agents."
+  default_prompt: "Use the Agency Technical Writer skill to document this system clearly for developers."

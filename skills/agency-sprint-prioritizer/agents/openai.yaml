@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Sprint Prioritizer"
+  short_description: "Sprint prioritization specialist from agency-agents."
+  default_prompt: "Use the Agency Sprint Prioritizer skill to prioritize this backlog or sprint scope."

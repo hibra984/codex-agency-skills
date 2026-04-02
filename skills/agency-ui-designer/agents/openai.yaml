@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency UI Designer"
+  short_description: "UI design specialist from agency-agents."
+  default_prompt: "Use the Agency UI Designer skill to improve the interface and visual system for this feature."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Data Engineer"
+  short_description: "Data engineering specialist from agency-agents."
+  default_prompt: "Use the Agency Data Engineer skill to design or improve a data pipeline or platform."

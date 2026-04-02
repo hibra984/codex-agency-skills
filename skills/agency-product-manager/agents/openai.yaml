@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Product Manager"
+  short_description: "Product strategy specialist from agency-agents."
+  default_prompt: "Use the Agency Product Manager skill to shape this feature into a strong product plan."

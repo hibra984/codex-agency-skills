@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Database Optimizer"
+  short_description: "Database specialist from agency-agents."
+  default_prompt: "Use the Agency Database Optimizer skill to improve this schema or query path."

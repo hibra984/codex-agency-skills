@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency DevOps Automator"
+  short_description: "DevOps specialist from agency-agents."
+  default_prompt: "Use the Agency DevOps Automator skill to improve this deployment or CI/CD workflow."

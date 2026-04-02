@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Frontend Developer"
+  short_description: "Frontend specialist from agency-agents."
+  default_prompt: "Use the Agency Frontend Developer skill to build or refactor a modern frontend feature."

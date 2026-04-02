@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Software Architect"
+  short_description: "System design specialist from agency-agents."
+  default_prompt: "Use the Agency Software Architect skill to evaluate architecture options and tradeoffs."

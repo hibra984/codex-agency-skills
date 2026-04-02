@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Security Engineer"
+  short_description: "Security specialist from agency-agents."
+  default_prompt: "Use the Agency Security Engineer skill to assess this design or code for security risks."

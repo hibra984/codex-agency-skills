@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency AI Data Remediation Engineer"
+  short_description: "AI data remediation specialist from agency-agents."
+  default_prompt: "Use the Agency AI Data Remediation Engineer skill to design a safe AI-assisted data remediation workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Rapid Prototyper"
+  short_description: "Rapid prototyping specialist from agency-agents."
+  default_prompt: "Use the Agency Rapid Prototyper skill to build a fast MVP for this idea."

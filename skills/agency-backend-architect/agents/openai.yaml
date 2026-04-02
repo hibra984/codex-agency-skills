@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Backend Architect"
+  short_description: "Backend architecture specialist from agency-agents."
+  default_prompt: "Use the Agency Backend Architect skill to design or improve a backend system."

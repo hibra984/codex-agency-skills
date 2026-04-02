@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Code Reviewer"
+  short_description: "Code review specialist from agency-agents."
+  default_prompt: "Use the Agency Code Reviewer skill to review this change set for risk and quality."

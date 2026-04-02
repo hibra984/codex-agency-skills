@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Performance Benchmarker"
+  short_description: "Performance specialist from agency-agents."
+  default_prompt: "Use the Agency Performance Benchmarker skill to measure and improve performance here."

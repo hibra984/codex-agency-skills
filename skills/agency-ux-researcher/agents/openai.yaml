@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency UX Researcher"
+  short_description: "UX research specialist from agency-agents."
+  default_prompt: "Use the Agency UX Researcher skill to analyze this flow for user friction and usability."

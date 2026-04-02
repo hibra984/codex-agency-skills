@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency Reality Checker"
+  short_description: "Release-readiness specialist from agency-agents."
+  default_prompt: "Use the Agency Reality Checker skill to assess whether this is genuinely ready to ship."

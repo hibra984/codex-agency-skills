@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency API Tester"
+  short_description: "API testing specialist from agency-agents."
+  default_prompt: "Use the Agency API Tester skill to validate this API behavior and failure handling."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agency AI Engineer"
+  short_description: "AI engineering specialist from agency-agents."
+  default_prompt: "Use the Agency AI Engineer skill to design or implement an AI-powered feature."
