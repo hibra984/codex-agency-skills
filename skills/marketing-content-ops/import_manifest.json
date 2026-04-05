@@ -1,0 +1,33 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "content-ops",
+  "local_skill": "marketing-content-ops",
+  "copied_paths": [
+    ".env.example",
+    "README.md",
+    "requirements.txt",
+    "config/feeds.example.json",
+    "experts/humanizer.md",
+    "experts/instagram.md",
+    "experts/linkedin.md",
+    "experts/newsletter.md",
+    "experts/podcast-quotes.md",
+    "experts/recruiting.md",
+    "experts/seo-strategy.md",
+    "experts/x-articles.md",
+    "experts/youtube-shorts.md",
+    "references/expert-assembly.md",
+    "references/patterns.md",
+    "scoring-rubrics/content-quality.md",
+    "scoring-rubrics/conversion-quality.md",
+    "scoring-rubrics/evaluation-quality.md",
+    "scoring-rubrics/strategic-quality.md",
+    "scoring-rubrics/visual-quality.md",
+    "scripts/content-quality-gate.py",
+    "scripts/content-quality-scorer.py",
+    "scripts/content-transform.py",
+    "scripts/editorial-brain.py",
+    "scripts/quote-mining-engine.py"
+  ]
+}

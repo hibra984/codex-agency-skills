@@ -1,0 +1,11 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "yt-competitive-analysis",
+  "local_skill": "marketing-yt-competitive-analysis",
+  "copied_paths": [
+    "analyze.py",
+    "README.md",
+    "requirements.txt"
+  ]
+}

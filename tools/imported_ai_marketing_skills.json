@@ -1,0 +1,240 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "imported_skills": [
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "autoresearch",
+      "local_skill": "marketing-autoresearch",
+      "copied_paths": [
+        "autoresearch.py",
+        "README.md",
+        "requirements.txt"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "content-ops",
+      "local_skill": "marketing-content-ops",
+      "copied_paths": [
+        ".env.example",
+        "README.md",
+        "requirements.txt",
+        "config/feeds.example.json",
+        "experts/humanizer.md",
+        "experts/instagram.md",
+        "experts/linkedin.md",
+        "experts/newsletter.md",
+        "experts/podcast-quotes.md",
+        "experts/recruiting.md",
+        "experts/seo-strategy.md",
+        "experts/x-articles.md",
+        "experts/youtube-shorts.md",
+        "references/expert-assembly.md",
+        "references/patterns.md",
+        "scoring-rubrics/content-quality.md",
+        "scoring-rubrics/conversion-quality.md",
+        "scoring-rubrics/evaluation-quality.md",
+        "scoring-rubrics/strategic-quality.md",
+        "scoring-rubrics/visual-quality.md",
+        "scripts/content-quality-gate.py",
+        "scripts/content-quality-scorer.py",
+        "scripts/content-transform.py",
+        "scripts/editorial-brain.py",
+        "scripts/quote-mining-engine.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "conversion-ops",
+      "local_skill": "marketing-conversion-ops",
+      "copied_paths": [
+        "cro_audit.py",
+        "README.md",
+        "requirements.txt",
+        "survey_lead_magnet.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "deck-generator",
+      "local_skill": "marketing-deck-generator",
+      "copied_paths": [
+        "README.md",
+        "requirements.txt",
+        "scripts/generate-deck.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "finance-ops",
+      "local_skill": "marketing-finance-ops",
+      "copied_paths": [
+        ".env.example",
+        "README.md",
+        "requirements.txt",
+        "references/claude-roi.md",
+        "references/metrics-guide.md",
+        "references/org-overhead.md",
+        "references/output-template.md",
+        "references/quickbooks-formats.md",
+        "references/rates.md",
+        "references/team-cost.md",
+        "scripts/cfo-analyzer.py",
+        "scripts/scenario-modeler.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "growth-engine",
+      "local_skill": "marketing-growth-engine",
+      "copied_paths": [
+        ".env.example",
+        "autogrowth-weekly-scorecard.py",
+        "experiment-engine.py",
+        "pacing-alert.py",
+        "README.md",
+        "requirements.txt"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "outbound-engine",
+      "local_skill": "marketing-outbound-engine",
+      "copied_paths": [
+        ".env.example",
+        "README.md",
+        "requirements.txt",
+        "references/copy-rules.md",
+        "references/expert-panel.md",
+        "references/icp-template.md",
+        "references/instantly-rules.md",
+        "scripts/cold-outbound-sender.py",
+        "scripts/competitive-monitor.py",
+        "scripts/cross-signal-detector.py",
+        "scripts/instantly-audit.py",
+        "scripts/lead-pipeline.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "podcast-ops",
+      "local_skill": "marketing-podcast-ops",
+      "copied_paths": [
+        ".env.example",
+        "podcast_pipeline.py",
+        "README.md",
+        "requirements.txt"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "revenue-intelligence",
+      "local_skill": "marketing-revenue-intelligence",
+      "copied_paths": [
+        "client_report_generator.py",
+        "gong_insight_pipeline.py",
+        "README.md",
+        "requirements.txt",
+        "revenue_attribution.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "sales-pipeline",
+      "local_skill": "marketing-sales-pipeline",
+      "copied_paths": [
+        ".env.example",
+        "deal_resurrector.py",
+        "icp_learning_analyzer.py",
+        "rb2b_instantly_router.py",
+        "rb2b_suppression_pipeline.py",
+        "rb2b_webhook_ingest.py",
+        "README.md",
+        "requirements.txt",
+        "trigger_prospector.py",
+        "data/campaigns.json.example",
+        "data/icp-config.example.json"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "sales-playbook",
+      "local_skill": "marketing-sales-playbook",
+      "copied_paths": [
+        "call_analyzer.py",
+        "pricing_pattern_library.py",
+        "README.md",
+        "requirements.txt",
+        "value_pricing_briefing.py",
+        "value_pricing_packager.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "seo-ops",
+      "local_skill": "marketing-seo-ops",
+      "copied_paths": [
+        ".env.example",
+        "content_attack_brief.py",
+        "gsc_auth.py",
+        "gsc_client.py",
+        "README.md",
+        "requirements.txt",
+        "trend_scout.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "team-ops",
+      "local_skill": "marketing-team-ops",
+      "copied_paths": [
+        "meeting_action_extractor.py",
+        "README.md",
+        "requirements.txt",
+        "team_performance_audit.py"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "x-longform-post",
+      "local_skill": "marketing-x-longform-post",
+      "copied_paths": [
+        "README.md",
+        "requirements.txt",
+        "references/founder-voice.md",
+        "references/voice-template.md"
+      ]
+    },
+    {
+      "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+      "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+      "upstream_path": "yt-competitive-analysis",
+      "local_skill": "marketing-yt-competitive-analysis",
+      "copied_paths": [
+        "analyze.py",
+        "README.md",
+        "requirements.txt"
+      ]
+    }
+  ],
+  "omitted_dirs": [
+    "eval",
+    "security",
+    "telemetry"
+  ]
+}

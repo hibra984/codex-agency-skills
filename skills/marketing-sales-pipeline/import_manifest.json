@@ -1,0 +1,19 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "sales-pipeline",
+  "local_skill": "marketing-sales-pipeline",
+  "copied_paths": [
+    ".env.example",
+    "deal_resurrector.py",
+    "icp_learning_analyzer.py",
+    "rb2b_instantly_router.py",
+    "rb2b_suppression_pipeline.py",
+    "rb2b_webhook_ingest.py",
+    "README.md",
+    "requirements.txt",
+    "trigger_prospector.py",
+    "data/campaigns.json.example",
+    "data/icp-config.example.json"
+  ]
+}

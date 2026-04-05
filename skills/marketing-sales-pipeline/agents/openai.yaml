@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Sales Pipeline"
+  short_description: "Complete AI-powered sales pipeline automation: website visitor identification \u2192 intent scoring \u2192 suppression \u2192 campaign routing \u2192 dead deal resurrection \u2192 trigger prospecting \u2192 self-learning ICP optimization."
+  default_prompt: "Use the AI Sales Pipeline skill to run or adapt this marketing workflow."

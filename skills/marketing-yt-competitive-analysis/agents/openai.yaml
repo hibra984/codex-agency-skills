@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Competitive Analysis"
+  short_description: "Outlier detection and packaging pattern extraction for YouTube channels."
+  default_prompt: "Use the YouTube Competitive Analysis skill to run or adapt this marketing workflow."

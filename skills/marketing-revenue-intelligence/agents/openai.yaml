@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Revenue Intelligence"
+  short_description: "AI-powered revenue intelligence: sales call insight extraction, content-to-revenue attribution, and multi-source client reporting."
+  default_prompt: "Use the AI Revenue Intelligence skill to run or adapt this marketing workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Conversion Ops"
+  short_description: "AI-powered conversion rate optimization: landing page audits, CRO scoring, survey segmentation, and lead magnet generation."
+  default_prompt: "Use the AI Conversion Ops skill to run or adapt this marketing workflow."

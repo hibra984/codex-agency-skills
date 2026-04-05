@@ -2,7 +2,7 @@
 
 Curated Codex-native skills translated from [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents).
 
-This repository packages a high-value subset of Agency roles into reusable `SKILL.md` folders that Codex can discover and use across projects.
+This repository packages reusable `SKILL.md` folders that Codex can discover and use across projects.
 
 ## Included Skills
 
@@ -25,6 +25,24 @@ This repository packages a high-value subset of Agency roles into reusable `SKIL
 - `agency-technical-writer`
 - `agency-ui-designer`
 - `agency-ux-researcher`
+
+### Marketing workflow skills
+
+- `marketing-autoresearch`
+- `marketing-content-ops`
+- `marketing-conversion-ops`
+- `marketing-deck-generator`
+- `marketing-finance-ops`
+- `marketing-growth-engine`
+- `marketing-outbound-engine`
+- `marketing-podcast-ops`
+- `marketing-revenue-intelligence`
+- `marketing-sales-pipeline`
+- `marketing-sales-playbook`
+- `marketing-seo-ops`
+- `marketing-team-ops`
+- `marketing-x-longform-post`
+- `marketing-yt-competitive-analysis`
 
 ## Install With Codex Skill Installer
 
@@ -62,6 +80,22 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
          skills/agency-ux-researcher
 ```
 
+Install a marketing workflow skill:
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo hibra984/codex-agency-skills \
+  --path skills/marketing-growth-engine
+```
+
+Bulk-import or refresh the upstream marketing pack locally:
+
+```bash
+python tools/import_ai_marketing_skills.py \
+  --source ../ai-marketing-skills \
+  --dest .
+```
+
 Restart Codex after installation so new skills are discovered.
 
 ## Repository Layout
@@ -81,9 +115,10 @@ Suggested workflow:
 2. Keep `SKILL.md` concise and trigger-oriented.
 3. Preserve attribution to the original Agency role when adapting source material.
 4. Validate skills locally with Codex's `quick_validate.py` before opening a PR.
+5. For upstream marketing refreshes, regenerate via `tools/import_ai_marketing_skills.py` instead of editing generated skills by hand.
 
 ## Attribution
 
-These skills are adapted from the MIT-licensed [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) project.
+These skills are adapted from the MIT-licensed [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) and [`ericosiu/ai-marketing-skills`](https://github.com/ericosiu/ai-marketing-skills) projects.
 
 They are translations into Codex skill format, not official upstream artifacts.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Version check (silent if up to date)"
+  short_description: "Turns podcast episodes into a full content calendar across every platform."
+  default_prompt: "Use the Version check (silent if up to date) skill to run or adapt this marketing workflow."

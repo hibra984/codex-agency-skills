@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Team Ops"
+  short_description: "AI-powered team performance analysis and meeting intelligence: ruthless performance audits using the \"Elon Algorithm\" + automatic extraction of action items, decisions, and follow-ups from meeting transcripts."
+  default_prompt: "Use the AI Team Ops skill to run or adapt this marketing workflow."

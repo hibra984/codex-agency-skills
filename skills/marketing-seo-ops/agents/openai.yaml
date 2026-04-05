@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI SEO Ops"
+  short_description: "AI-powered SEO operations: keyword intelligence, competitor gap analysis, GSC optimization, and trend detection."
+  default_prompt: "Use the AI SEO Ops skill to run or adapt this marketing workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Engine"
+  short_description: "Autonomous growth experimentation framework based on Karpathy's autoresearch pattern applied to marketing. Creates experiments with hypotheses, logs data points, runs statistical analysis (bootstrap CI + Mann-Whitney U), auto-promotes winners to a living playbook, and suggests next experiments. Supports batch mode (up to 10 variants simultaneously)."
+  default_prompt: "Use the Growth Engine skill to run or adapt this marketing workflow."

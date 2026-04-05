@@ -1,0 +1,12 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "podcast-ops",
+  "local_skill": "marketing-podcast-ops",
+  "copied_paths": [
+    ".env.example",
+    "podcast_pipeline.py",
+    "README.md",
+    "requirements.txt"
+  ]
+}

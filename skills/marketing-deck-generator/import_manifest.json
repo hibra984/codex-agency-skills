@@ -1,0 +1,11 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "deck-generator",
+  "local_skill": "marketing-deck-generator",
+  "copied_paths": [
+    "README.md",
+    "requirements.txt",
+    "scripts/generate-deck.py"
+  ]
+}

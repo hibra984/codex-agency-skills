@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autoresearch Skill"
+  short_description: "Karpathy-style optimization loops for any conversion-focused content. No traffic needed. Simulated expert panel. Minutes, not weeks."
+  default_prompt: "Use the Autoresearch Skill skill to run or adapt this marketing workflow."

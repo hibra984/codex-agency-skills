@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Long-Form Post Writer"
+  short_description: "Write posts for X in your founder/CEO's authentic voice. Every post should feel like a real person wrote it \u2014 not a content team, not a bot."
+  default_prompt: "Use the X Long-Form Post Writer skill to run or adapt this marketing workflow."

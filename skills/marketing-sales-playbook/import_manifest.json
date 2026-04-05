@@ -1,0 +1,14 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "sales-playbook",
+  "local_skill": "marketing-sales-playbook",
+  "copied_paths": [
+    "call_analyzer.py",
+    "pricing_pattern_library.py",
+    "README.md",
+    "requirements.txt",
+    "value_pricing_briefing.py",
+    "value_pricing_packager.py"
+  ]
+}

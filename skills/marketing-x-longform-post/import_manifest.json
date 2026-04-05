@@ -1,0 +1,12 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "x-longform-post",
+  "local_skill": "marketing-x-longform-post",
+  "copied_paths": [
+    "README.md",
+    "requirements.txt",
+    "references/founder-voice.md",
+    "references/voice-template.md"
+  ]
+}

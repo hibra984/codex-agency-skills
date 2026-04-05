@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Sales Playbook \u2014 Value-Based Pricing & Deal Upselling"
+  short_description: "Framework for value-based pricing that moves deals from $10K/mo \u2192 $40-100K/mo. Pre-call briefings, tiered package generation, post-call analysis, and a pattern library for training sales teams on proven pricing techniques."
+  default_prompt: "Use the AI Sales Playbook \u2014 Value-Based Pricing & Deal Upselling skill to run or adapt this marketing workflow."

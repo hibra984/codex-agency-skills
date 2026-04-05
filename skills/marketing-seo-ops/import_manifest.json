@@ -1,0 +1,15 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "seo-ops",
+  "local_skill": "marketing-seo-ops",
+  "copied_paths": [
+    ".env.example",
+    "content_attack_brief.py",
+    "gsc_auth.py",
+    "gsc_client.py",
+    "README.md",
+    "requirements.txt",
+    "trend_scout.py"
+  ]
+}

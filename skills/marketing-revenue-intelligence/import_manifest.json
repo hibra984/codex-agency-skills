@@ -1,0 +1,13 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "revenue-intelligence",
+  "local_skill": "marketing-revenue-intelligence",
+  "copied_paths": [
+    "client_report_generator.py",
+    "gong_insight_pipeline.py",
+    "README.md",
+    "requirements.txt",
+    "revenue_attribution.py"
+  ]
+}

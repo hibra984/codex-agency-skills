@@ -1,0 +1,11 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "autoresearch",
+  "local_skill": "marketing-autoresearch",
+  "copied_paths": [
+    "autoresearch.py",
+    "README.md",
+    "requirements.txt"
+  ]
+}

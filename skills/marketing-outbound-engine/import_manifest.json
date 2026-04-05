@@ -1,0 +1,20 @@
+{
+  "upstream_repo": "https://github.com/ericosiu/ai-marketing-skills",
+  "upstream_commit": "c3b455243f165ea86b37394a151f613267e94174",
+  "upstream_path": "outbound-engine",
+  "local_skill": "marketing-outbound-engine",
+  "copied_paths": [
+    ".env.example",
+    "README.md",
+    "requirements.txt",
+    "references/copy-rules.md",
+    "references/expert-panel.md",
+    "references/icp-template.md",
+    "references/instantly-rules.md",
+    "scripts/cold-outbound-sender.py",
+    "scripts/competitive-monitor.py",
+    "scripts/cross-signal-detector.py",
+    "scripts/instantly-audit.py",
+    "scripts/lead-pipeline.py"
+  ]
+}

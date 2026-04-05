@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deck Generator"
+  short_description: "Generate complete presentations where every slide is an AI-generated image in a consistent visual style."
+  default_prompt: "Use the Deck Generator skill to run or adapt this marketing workflow."

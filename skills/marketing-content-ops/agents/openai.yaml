@@ -1,0 +1,4 @@
+interface:
+  display_name: "Version check (silent if up to date)"
+  short_description: "General-purpose scoring and iterative improvement engine. Auto-assembles the"
+  default_prompt: "Use the Version check (silent if up to date) skill to run or adapt this marketing workflow."
