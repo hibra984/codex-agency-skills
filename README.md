@@ -161,6 +161,41 @@ Not imported in this release:
 
 Those folders were treated as support or non-end-user workflow material rather than reusable Codex skills.
 
+## External Stacks
+
+### gstack (Claude Code global skills)
+
+[`garrytan/gstack`](https://github.com/garrytan/gstack) is a separate, Claude-Code-native skill bundle (23 slash commands: `/office-hours`, `/review`, `/qa`, `/ship`, `/browse`, etc.). It is not a Codex `SKILL.md` package and is not installed through this repo's skill installer — it installs once into `~/.claude/skills/gstack` on your machine and is then available in every Claude Code project automatically.
+
+Run this on the machine where you actually use Claude Code (not inside a remote/sandboxed session — sandboxes are ephemeral and isolated from your local `~/.claude`):
+
+```bash
+git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup
+```
+
+Requirements: Git, Bun v1.0+, Node.js, and Claude Code installed locally.
+
+Then add the following to your global `~/.claude/CLAUDE.md` so Claude Code knows the skills exist:
+
+```markdown
+## gstack
+Use /browse from gstack for all web browsing. Never use mcp__claude-in-chrome__* tools.
+Available skills: /office-hours, /plan-ceo-review, /plan-eng-review, /plan-design-review,
+/design-consultation, /design-shotgun, /design-html, /review, /ship, /land-and-deploy,
+/canary, /benchmark, /browse, /open-gstack-browser, /qa, /qa-only, /design-review,
+/setup-browser-cookies, /setup-deploy, /setup-gbrain, /sync-gbrain, /retro, /investigate,
+/document-release, /document-generate, /codex, /cso, /autoplan, /pair-agent, /careful,
+/freeze, /guard, /unfreeze, /gstack-upgrade, /learn.
+```
+
+For a shared repo, run team mode from inside that repo so teammates auto-get it:
+
+```bash
+(cd ~/.claude/skills/gstack && ./setup --team) && ~/.claude/skills/gstack/bin/gstack-team-init required && git add .claude/ CLAUDE.md && git commit -m "require gstack for AI-assisted work"
+```
+
+After the global install, open any project and run `/office-hours` to confirm it loaded. Note: gstack assumes Claude Code's terminal — most of its commands won't fire in the Cowork app or other non-terminal surfaces.
+
 ## Repository Layout
 
 Each skill lives under `skills/<skill-name>/` and includes:
